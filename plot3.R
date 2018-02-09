@@ -13,7 +13,7 @@ if (is.null(data)) {
 # create png.. as a device
 
 
-png("plot3.png", width=400, height=400)
+png("plot3.png", width=480, height=480)
 par(mfrow=c(1,1))
 
 plot(data$Time, data$Sub_metering_1, type="l", col="black",

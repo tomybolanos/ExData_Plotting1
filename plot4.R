@@ -12,7 +12,7 @@ if (is.null(data)) {
 # create png.. as a device
 
 
-png("plot4.png", width=400, height=400)
+png("plot4.png", width=480, height=480)
 
 par(mfrow=c(2,2))
 

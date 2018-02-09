@@ -12,7 +12,7 @@ if (is.null(data)) {
 # create png.. as a device
 
 par(mfrow=c(1,1))
-png("plot1.png", width=400, height=400)
+png("plot1.png", width=480, height=480)
 
 hist(data$Global_active_power,
      main="Global Active Power",
